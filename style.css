@@ -2,18 +2,38 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#buttonInput {
+    align-self: center;
+    max-width: 715px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .row {
     display: flex;
     justify-content: center;
+    gap: 1px;
 }
 
 .box {
     background-color: black;
     border-style: solid;
-    width: 150px;
-    height: 150px;
+    border-width:0px;
+    /*width: 175px;
+    height: 175px;
+    ./*padding: 5px;
+    border-color:white;
+    border-style: solid;
+    border-width: 5px;*/
 }
 
 .highlightedBox {
@@ -24,7 +44,7 @@
     position: absolute;
     width: 5px;
     height: 5px;
-    background-color: black;
-    border: 1px solid pink;
+    background-color: pink;
+    /*border: 1px solid pink;*/
     border-radius: 100%;
 }
